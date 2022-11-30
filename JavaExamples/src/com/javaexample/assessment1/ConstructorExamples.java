@@ -1,4 +1,4 @@
-package com.javaexample;
+package com.javaexample.assessment1;
 
 public class ConstructorExamples {
 
