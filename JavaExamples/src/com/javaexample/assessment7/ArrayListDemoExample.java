@@ -47,8 +47,7 @@ public class ArrayListDemoExample {
 		//Sorting the emp names
         Collections.sort(employees);
         System.out.println("Sorting result");
-		employees.forEach(emp -> System.out.println(
-				+ emp.getEmpId()+" " +  emp.getEmpName()+" " + emp.getSalary()));
+		employees.forEach(System.out::println);
 		
 		//Iteratore Result
 		 System.out.println("Iterator result");
